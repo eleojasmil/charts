@@ -509,7 +509,7 @@ class _LinePointLayoutView<D> extends LayoutView {
 
       // Draw the highlight dot. Use the [SymbolRenderer] from the datum if one
       // is defined.
-      (pointElement.symbolRenderer ?? symbolRenderer).paint(canvas, bounds,
+      (symbolRenderer).paint(canvas, bounds,
           fillColor: pointElement.fillColor,
           strokeColor: pointElement.color,
           strokeWidthPx: pointElement.strokeWidthPx);
