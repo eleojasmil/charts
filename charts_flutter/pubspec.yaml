@@ -15,7 +15,10 @@ dependencies:
   # The latest pub version is commented out and shown below as an example.
   # charts_common: 0.11.0
   charts_common:
-    path: ../charts_common/
+  git:
+    url: https://github.com/eleojasmil/charts.git
+    path: charts_common
+    ref: modified_branch
   collection: ^1.14.5
   flutter:
     sdk: flutter
